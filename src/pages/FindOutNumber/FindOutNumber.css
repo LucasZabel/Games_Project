@@ -1,0 +1,136 @@
+.body {
+    padding-top: 30px;
+    height: 100vh;
+    font-family: "Trebuchet MS";
+    text-align: center;
+}
+
+.body h1 {
+    color: black;
+    font-family: 'Courier New';
+    font-size: 2em;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    color: white;
+    background-image: url("./img/background.jpg");
+    background-size: cover;
+    opacity: .9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    margin: 30px auto;
+    padding: 10px;
+    overflow: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.score_div {
+    display: flex;
+    gap: 100px;
+    margin: 10px;
+    color: black;
+}
+
+.score_children {
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(66, 66, 66);
+    box-shadow: 0 0 10px rgb(66, 66, 66);
+}
+
+.box_title {
+    position: relative;
+    bottom: 10px;
+}
+
+.text_shadow {
+    text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black;
+}
+
+.input {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    width: 30%;
+    border: 1px solid rgb(66, 66, 66);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(66, 66, 66);
+}
+
+.buttonBox {
+    position: relative;
+    cursor: pointer;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    color: rgb(43, 43, 43);
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+}
+
+.border {
+    position: absolute;
+    background: none;
+    transition: all .7s ease-in-out;
+}
+
+.buttonBox>.border:nth-of-type(1) {
+    top: 0;
+    left: 0;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    width: 30px;
+    height: 30px;
+}
+
+
+.buttonBox>.border:nth-of-type(2) {
+    bottom: 0;
+    right: 0;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 30px;
+    height: 30px;
+}
+
+.buttonBox:hover .border {
+    width: 102%;
+    height: 105%;
+}
+
+.triedNumbersBox {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    border: 1px solid rgb(66, 66, 66);
+    box-shadow: 0 0 10px rgb(66, 66, 66);
+    width: 90%;
+    color: black;
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding: 15px 10px;
+}
+
+.triedNumbers {
+    min-height: 50px;
+    margin-top: 15px;
+    display: flex;
+    gap: 5px 15px;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}

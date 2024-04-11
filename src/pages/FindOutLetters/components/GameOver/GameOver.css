@@ -1,0 +1,37 @@
+.gameover {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gameover h1 {
+    background-color: rgba(255, 0, 0, 0.8);
+    padding: 10px 15px;
+    border: 1px solid black;
+    font-family: "Trebuchet MS";
+}
+
+.gameover h2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 15px;
+    border: 1px solid black;
+    font-family: "Trebuchet MS";
+}
+
+.gameover button {
+    padding: 5px 10px;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: bold;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.gameover button:hover {
+    color: white;
+    border: 1px solid #ffffff;
+    background-color: #00b5d4;
+}

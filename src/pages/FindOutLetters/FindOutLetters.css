@@ -1,0 +1,22 @@
+.find_out_letters {
+    height: 100vh;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.fol_box {
+    width: 80%;
+    height: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background: url("../FindOutLetters/components/img/background2.jpg");
+    background-size: cover;
+    border: 1px solid black;
+}
+
+.find_out_letters .title {
+    margin-top: 30px;
+    font-size: 2em;
+    font-family: "Trebuchet MS";
+}

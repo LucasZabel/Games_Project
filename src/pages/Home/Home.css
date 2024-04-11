@@ -1,0 +1,64 @@
+.home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #fff;
+}
+
+.home h1 {
+    color: black;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.gm_cntnr {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.bx {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    opacity: .8;
+    color: white;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black;
+    transition: all 1s ease;
+}
+
+.nmbrs {
+    background:
+        -webkit-linear-gradient(315deg, white 10%, transparent 0px),
+        url("../FindOutNumber/img/background.jpg");
+    background-size: cover;
+}
+
+.lttrs {
+    background:
+        -webkit-linear-gradient(315deg, white 10%, transparent 0px),
+        url("../FindOutLetters/components/img/background2.jpg");
+    background-size: cover;
+}
+
+.bx:hover {
+    width: 220px;
+    height: 220px;
+    opacity: 1;
+    font-size: 1.5em;
+}
